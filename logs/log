@@ -1,0 +1,12 @@
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 17:26:53] "GET /api/v1.o/demo HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 17:26:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 17:26:57] "GET /api/v1.0/demo HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [11/Jun/2019 09:11:41] "GET /api/v1.0/demo HTTP/1.1" 200 -

@@ -3,6 +3,7 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
+// 保存图片验证码编号
 var imageCodeId = "";
 
 function generateUUID() {
@@ -19,6 +20,11 @@ function generateUUID() {
 }
 
 function generateImageCode() {
+    // 生成编号，形成图片验证码的后端请求URL，设置到页面中
+    imageCodeId = generateUUID();
+    // 设置URL
+    var url = '/api/v1.0/image_codes/' + imageCodeId;
+    $('.image-code img').attr('src', url);
 }
 
 function sendSMSCode() {
