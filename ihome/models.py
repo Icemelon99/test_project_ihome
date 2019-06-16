@@ -1,4 +1,5 @@
 from datetime import datetime
+from werkzeug.security import generate_password_hash, check_password_hash
 from . import db
 
 
@@ -23,6 +24,17 @@ class User(BaseModel, db.Model):
     avatar_url = db.Column(db.String(128))  # 用户头像路径
     houses = db.relationship("House", backref="user")  # 用户发布的房屋
     orders = db.relationship("Order", backref="user")  # 用户下的订单
+
+    @property
+    def password(self):
+        # 设置为只写的方式
+        raise AttributeError('这个属性只能设置，不能读取')
+
+    @password.setter
+    def password(self, value):
+        self.password_hash = generate_password_hash(value)
+
+
 
 
 class Area(BaseModel, db.Model):

@@ -1,6 +1,7 @@
 from . import api
 from ihome.utils.response_code import RET
 from ihome import redis_store, constants
+from ihome.models import User
 from flask import current_app, jsonify, make_response, send_file, request
 from captcha.image import ImageCaptcha
 import random
@@ -25,7 +26,7 @@ def get_image_codes(image_code_id):
     except Exception as e:
         # 记录日志
         current_app.logger.error(e)
-        return jsonify(err_num=RET.DBERR, err_msg='保存图片验证码信息失败')
+        return jsonify(errno=RET.DBERR, err_msg='保存图片验证码信息失败')
     # 返回应答
     # resp = make_response(image_data)
     # resp.heads['Content-Type'] = 'image/jpg'
@@ -104,9 +105,9 @@ def get_sms_code(mobile):
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="保存短信验证码异常")
 
-    # 发送短信
+    # 发送短信，由于python版本兼容问题，此处模拟，由于可能的延迟问题，此处也需要进行异步处理
     try:
-        print('send message')
+        print('send message {} to {}'.format(sms_code, mobile))
         result = 0
     except Exception as e:
         current_app.logger.error(e)
