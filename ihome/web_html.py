@@ -14,7 +14,7 @@ def get_html(html_file_name):
 		html_file_name = 'html/' + html_file_name
 	# 创建csrf_token值，并设置cookie
 	csrf_token = csrf.generate_csrf()
-	resp =make_response(current_app.send_static_file(html_file_name))
+	resp = make_response(current_app.send_static_file(html_file_name))
 	resp.set_cookie('csrf_token', csrf_token)
 
 	return resp

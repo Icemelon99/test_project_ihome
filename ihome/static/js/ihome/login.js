@@ -24,5 +24,33 @@ $(document).ready(function() {
             $("#password-err").show();
             return;
         }
+        var data = {
+            mobile: mobile,
+            password: passwd
+        };
+        // 将data转为json字符串
+        var jsonData = JSON.stringify(data);
+        $.ajax({
+            url:"/api/v1.0/sessions",
+            type:"post",
+            data: jsonData,
+            contentType: "application/json",
+            dataType: "json",
+            headers:{
+                "X-CSRFToken":getCookie("csrf_token")
+            },
+            success: function (data) {
+                if (data.errno == "0") {
+                    // 登录成功，跳转到主页
+                    location.href = "/";
+                }
+                else {
+                    // 其他错误信息，在页面中展示
+                    $("#password-err span").html(data.errmsg);
+                    $("#password-err").show();
+                }
+            }
+        });
     });
+
 })

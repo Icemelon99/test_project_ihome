@@ -7,6 +7,7 @@ from sqlalchemy.exc import IntegrityError
 from werkzeug.security import check_password_hash
 import re
 
+
 @api.route('/users', methods=['POST'])
 def register():
     # 获取请求的json数据，转换为字典
@@ -47,7 +48,6 @@ def register():
         current_app.logger.error(e)
 
     # 判断用户填写短信验证码是否一致
-    print(real_sms_code, type(real_sms_code), sms_code, type(sms_code))
     if real_sms_code != sms_code:
         return jsonify(errno=RET.DATAERR, errmsg="短信验证码错误")
 
@@ -83,3 +83,70 @@ def register():
     session['user_id'] = user.id
 
     return jsonify(errno=RET.OK, errmsg="注册成功")
+
+
+@api.route('/sessions', methods=['POST'])
+def login():
+    '''用户登录'''
+    # 参数获取与校验
+    req_dict = request.get_json()
+    mobile = req_dict.get('mobile')
+    password = req_dict.get('password')
+    # 校验参数完整性
+    if not all([mobile, password]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+    # 校验手机号格式
+    if not re.match(r'1[34578]\d{9}', mobile):
+        return jsonify(errno=RET.PARAMERR, errmsg="手机号格式错误")
+
+    # 判断错误次数是否超过限制，如果超过则10分钟内禁止此IP登录
+    user_ip = request.remote_addr
+    try:
+        access_nums = redis_store.get('access_nums_{}'.format(user_ip))
+    except Exception as e:
+        current_app.logger.error(e)
+    else:
+        if access_nums:
+            if int(access_nums.decode()) >= constants.LOGIN_ERROR_TIMES:
+                return jsonify(errno=RET.REQERR, errmsg="错误次数过多，请稍候重试")
+
+    # 验证手机号与密码
+    try:
+        user = User.query.filter_by(mobile=mobile).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="获取用户信息失败")
+
+    # 将用户名与密码验证放置在一处，若失败返回提示信息并记录次数
+    if (not user) or (not user.check_password(password)):
+        try:
+            redis_store.incr('access_nums_{}'.format(user_ip))
+            redis_store.expire('access_nums_{}'.format(user_ip), constants.LOGIN_ERROR_FORBID_TIME)
+        except Exception as e:
+            current_app.logger.error(e)
+
+        return jsonify(errno=RET.DBERR, errmsg="用户名或密码错误")
+
+    # 若成功保存登录状态
+    session['name'] = user.name
+    session['mobile'] = user.mobile
+    session['user_id'] = user.id
+
+    return jsonify(errno=RET.OK, errmsg="登录成功")
+
+
+@api.route('/session', methods=['GET'])
+def check_login():
+    '''检查登录状态，由于针对特定资源访问，因此不加复数'''
+    # 因为首页可以让未登录用户访问，因此必须在视图内完成登录验证
+    name = session.get('name')
+    if name:
+        return jsonify(errno=RET.OK, errmsg="true", data={'name': name})
+    else:
+        return jsonify(errno=RET.SESSIONERR, errmsg='false')
+
+@api.route('/session', methods=['DELETE'])
+def log_out():
+    '''登出'''
+    session.clear()
+    return jsonify(errno=RET.OK, errmsg="true")

@@ -34,7 +34,20 @@ class User(BaseModel, db.Model):
     def password(self, value):
         self.password_hash = generate_password_hash(value)
 
+    def check_password(self, password):
+        '''检验密码的正确性，传入参数为用户登录时填写的密码'''
+        return check_password_hash(self.password_hash, password)
 
+    def to_dict(self):
+        """将对象转换为字典数据"""
+        user_dict = {
+            "user_id": self.id,
+            "name": self.name,
+            "mobile": self.mobile,
+            "avatar": constants.QINIU_URL_DOMAIN + self.avatar_url if self.avatar_url else "",
+            "create_time": self.create_time.strftime("%Y-%m-%d %H:%M:%S")
+        }
+        return user_dict    
 
 
 class Area(BaseModel, db.Model):
