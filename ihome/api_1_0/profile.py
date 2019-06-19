@@ -112,7 +112,7 @@ def get_user_profile():
         return jsonify(errno=RET.NODATA, errmsg='无效操作')
     # 组织参数，此处可以在模型类中设置将对象转换为字典数据，返回应答
     name = user.name
-    avatar_url = constants.UPLOAD_IMAGE_URL + user.avatar_url
+    avatar_url = user.to_url()
     mobile = user.mobile
     resp_data = {
         'name': name,

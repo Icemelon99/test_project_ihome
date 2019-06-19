@@ -17,3 +17,6 @@ LOGIN_ERROR_FORBID_TIME = 600
 
 # 用户上传图片的保存地址域名
 UPLOAD_IMAGE_URL = 'http://127.0.0.1:5000/static/images/'
+
+# 城区信息的缓存时间，单位：秒
+AREA_INFO_REDIS_EXPIRE = 7200
