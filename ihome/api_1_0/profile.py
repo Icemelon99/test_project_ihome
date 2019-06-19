@@ -120,3 +120,22 @@ def get_user_profile():
         'mobile': mobile
     }
     return jsonify(errno=RET.OK, errmsg="获取成功", data=resp_data)
+
+
+@api.route("/users/auth", methods=["GET"])
+@login_required
+def get_user_auth():
+    """获取用户的实名认证信息"""
+    user_id = g.user_id
+
+    # 在数据库中查询信息
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="获取用户实名信息失败")
+
+    if user is None:
+        return jsonify(errno=RET.NODATA, errmsg="无效操作")
+
+    return jsonify(errno=RET.OK, errmsg="OK", data=user.auth_to_dict())

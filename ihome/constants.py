@@ -20,3 +20,14 @@ UPLOAD_IMAGE_URL = 'http://127.0.0.1:5000/static/images/'
 
 # 城区信息的缓存时间，单位：秒
 AREA_INFO_REDIS_EXPIRE = 7200
+
+# 首页显示的图片数量，单位：个
+HOME_PAGE_INDEX_IMAGES = 10
+
+# 首页信息的缓存时间，单位：秒
+HOME_PAGE_REDIS_EXPIRE = 3600
+
+# 房屋详情信息的缓存时间，单位：秒
+HOUSE_DETAIL_REDIS_EXPIRE = 3600
+
+HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS = 20
