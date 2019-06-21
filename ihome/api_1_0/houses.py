@@ -1,9 +1,10 @@
 from . import api
 from ihome.utils.commons import login_required
 from ihome.utils.response_code import RET
-from ihome.models import User, House, Area, Facility, HouseImage
+from ihome.models import User, House, Area, Facility, HouseImage, Order
 from ihome import db, constants, redis_store
 from flask import g, current_app, request, jsonify, session
+from datetime import datetime
 import time
 import json
 
@@ -275,8 +276,8 @@ def get_house_detail(house_id):
         current_app.logger.error(e)
     else:
         if house_json: 
-            resp = '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, house_json), \
-           200, {"Content-Type": "application/json"}
+            print('hit redis house detail')
+            resp = ('{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, house_json), 200, {"Content-Type": "application/json"})
             return resp
 
     # 校验参数
@@ -307,8 +308,131 @@ def get_house_detail(house_id):
     except Exception as e:
         current_app.logger.error(e)
 
-    resp = '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, house_json), \
-           200, {"Content-Type": "application/json"}
+    resp = ('{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, house_json), 200, {"Content-Type": "application/json"})
     return resp
+
+# /api/v1.0/houses?sd=2018-11-11&ed=2018-11-12&aid=&sk=&p=1
+@api.route('/houses', methods=['GET'])
+def get_house_list():
+    '''获取房屋的列表信息，及按条件搜索排序'''
+    start_date = request.args.get('sd', '')
+    end_date = request.args.get('ed', '')
+    area_id = request.args.get('aid', '')
+    sort_key = request.args.get('sk', 'new')
+    page = request.args.get('p')
+
+    # 校验时间参数格式
+    try:
+        if start_date:
+            start_date = datetime.strptime(start_date, '%Y-%m-%d')
+
+        if end_date:
+            end_date = datetime.strptime(end_date, '%Y-%m-%d')
+
+        if all([start_date, end_date]):
+            assert start_date<=end_date
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.PARAMERR, errmsg="时间格式错误")
+    
+    # 判断区域编号
+    if area_id:
+        try:
+            area = Area.query.get(area_id)
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.PARAMERR, errmsg="区域信息错误")
+
+    # 处理页数
+    try:
+        page = int(page)
+    except Exception as e:
+        current_app.logger.error(e)
+        page = 1
+
+    # 设置缓存
+    redis_key = 'house_list_{}_{}_{}_{}'.format(start_date, end_date, area_id, sort_key)
+    try:
+        resp_json = redis_store.hget(redis_key, page).decode()
+    except Exception as e:
+        current_app.logger.error(e)
+    else:
+        if resp_json:
+            print('hit redis list')
+            return resp_json, 200, {'Content-Type': 'application/json'}
+
+    # 查询数据库
+    # 过滤条件的参数容器
+    filter_params = list()
+    
+    # 时间条件
+    conflict_orders = list()
+    # 查询冲突订单，提取冲突订单中的房屋id
+    # 此处，直接消除条件即设置为无限
+    # ①当结束时间不存在时，可设置结束时间为起始时间同一天，也可设置为无限(查询只对订单的结束时间做出了限制，无论何时起始都冲突)
+    # ②当起始时间不存在时，可以设置起始时间为今天，也可设置为无限(即只对订单的起始时间做出限制，无论何时结束都冲突)
+    if start_date or end_date:
+        if not start_date:
+            start_date = datetime.now()
+        if not end_date:
+            end_date = start_date
+        try:
+            conflict_orders = Order.query.filter(Order.begin_date <= end_date, Order.end_date >= start_date).all()
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.DBERR, errmsg="数据出错")
+
+    if conflict_orders:
+        conflict_house_ids = [order.house_id for order in conflict_orders]
+        if conflict_house_ids:
+            filter_params.append(House.id.notin_(conflict_house_ids))
+
+    # 区域条件
+    if area_id:
+        filter_params.append(House.area_id == area_id)
+
+    # 排序条件
+    if sort_key == 'new':
+        order_by_param = House.create_time.desc()
+    elif sort_key == 'booking':
+        order_by_param = House.order_count.desc()
+    elif sort_key == 'price-inc':
+        order_by_param = House.price.asc()
+    elif sort_key == 'price-des':
+        order_by_param = House.price.desc()
+    else:
+        order_by_param = House.create_time.desc()
+
+    # 查询数据库
+    house_query = House.query.filter(*filter_params).order_by(order_by_param)
+    try:
+        page_obj = house_query.paginate(page=page, per_page=constants.HOUSE_LIST_PER_PAGE_CAPACITY, error_out=False)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据出错")
+
+    # 组织页面数据
+    houses = list()
+    houses_li = page_obj.items
+    for house in houses_li:
+        houses.append(house.to_basic_dict())
+
+    total_page = page_obj.pages
+
+    resp_dict = dict(errno=RET.OK, errmsg='OK', data={'total_page':total_page, 'houses': houses, 'current_page': page})
+    resp_json = json.dumps(resp_dict)
+    # 设置缓存
+    if page <= total_page:
+        redis_key = 'house_list_{}_{}_{}_{}'.format(start_date, end_date, area_id, sort_key)
+        try:
+            redis_store.hset(redis_key, page, resp_json)
+            redis_store.expire(redis_key, constants.HOUSE_LIST_PAGE_REDIS_EXPIRE)
+        except Exception as e:
+            current_app.logger.error(e)
+
+    return resp_json, 200, {'Content-Type': 'application/json'}
+
+
+
 
 

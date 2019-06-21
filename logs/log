@@ -2747,3 +2747,515 @@ ERROR houses.py:19 'NoneType' object has no attribute 'decode'
 INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:35:14] "GET /api/v1.0/areas HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:35:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
 INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:35:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:28] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /api/v1.0/session HTTP/1.1" 200 -
+ERROR houses.py:228 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+ERROR houses.py:19 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /static/images/house_image_5_1560916367 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /static/images/house_image_6_1560951715 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /static/images/house_image_7_1560958480 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:34] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:34] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:41] "GET /detail.html?id=7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:41] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:41] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+ERROR houses.py:275 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:42] "GET /api/v1.0/houses/7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:42] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:42] "GET /static/images/house_image_7_1560958484 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:42] "GET /static/images/avatar_2_1560826060 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:51:42] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:02] "GET /detail.html?id=6 HTTP/1.1" 200 -
+ERROR houses.py:275 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:02] "GET /api/v1.0/houses/6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:02] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:02] "GET /static/images/avatar_1_1560825536 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:12] "GET /detail.html?id=5 HTTP/1.1" 200 -
+ERROR houses.py:275 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:12] "GET /api/v1.0/houses/5 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:12] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:12] "GET /static/images/house_image_5_1560916403 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:12] "GET /static/images/house_image_5_1560916428 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:22] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:22] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:24] "GET /booking.html?hid=7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:24] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:24] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:24] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/icmelon/virtual_environment/flask/flask/bin/ihome_project/ihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:54] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:55] "GET /detail.html?id=7 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:55] "GET /api/v1.0/houses/7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:55] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:55] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:56] "GET /detail.html?id=7 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:56] "GET /api/v1.0/houses/7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [19/Jun/2019 23:52:57] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /detail.html?id=5 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/css/ihome/detail.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/js/template.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/js/ihome/detail.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:06] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+ERROR houses.py:275 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:07] "GET /api/v1.0/houses/5 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:07] "GET /static/images/houseicon_sprite.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:07] "GET /static/images/house_image_5_1560916367 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:07] "GET /static/images/house_image_5_1560916403 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:07] "GET /static/images/house_image_5_1560916428 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:07] "GET /static/images/avatar_1_1560825536 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:11] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:11] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:19] "GET / HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:19] "GET /static/css/ihome/index.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:19] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:19] "GET /static/js/ihome/index.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:19] "GET /api/v1.0/session HTTP/1.1" 200 -
+ERROR houses.py:228 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:20] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+ERROR houses.py:19 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:20] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:20] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:20] "GET /static/images/house_image_6_1560951715 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:20] "GET /static/images/house_image_7_1560958480 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:23] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:23] "GET /static/css/ihome/search.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:23] "GET /static/images/landlord01.jgp HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:23] "GET /static/js/ihome/search.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:23] "GET /static/images/home01.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:30] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:30] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:30] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:34] "GET /search.html?aid=10&aname=大兴区&sd=&ed= HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:34] "GET /static/images/landlord01.jgp HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:38] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:38] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:38] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:46:38] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:18] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:18] "GET /api/v1.0/houses/5 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:24] "GET /booking.html?hid=5 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:24] "GET /static/css/ihome/booking.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:24] "GET /static/js/ihome/booking.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:25] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:26] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:30] "GET /detail.html?id=7 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+ERROR houses.py:275 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:30] "GET /api/v1.0/houses/7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:30] "GET /static/images/house_image_7_1560958484 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:30] "GET /static/images/avatar_2_1560826060 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 15:48:36] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:44:44] "GET /houses HTTP/1.1" 404 -
+ERROR houses.py:341 object of type 'NoneType' has no len()
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:45:08] "GET /api/v1.0/houses HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/icmelon/virtual_environment/flask/flask/bin/ihome_project/ihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+ERROR houses.py:349 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:47:59] "GET /api/v1.0/houses HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:47:59] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:47:59] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:47:59] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:47:59] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:47:59] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/icmelon/virtual_environment/flask/flask/bin/ihome_project/ihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+ERROR houses.py:349 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:50:57] "GET /api/v1.0/houses HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:50:57] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:50:57] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:50:57] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:50:57] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:50:57] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/icmelon/virtual_environment/flask/flask/bin/ihome_project/ihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+ERROR houses.py:349 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:51:45] "GET /api/v1.0/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:51:45] "GET /favicon.ico HTTP/1.1" 200 -
+ERROR houses.py:349 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:53:00] "GET /api/v1.0/houses?aid=1 HTTP/1.1" 200 -
+ERROR houses.py:349 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:53:09] "GET /api/v1.0/houses?aid=2 HTTP/1.1" 200 -
+ERROR houses.py:349 int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:53:26] "GET /api/v1.0/houses?sk=price-inc HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:53:47] "GET /api/v1.0/houses?sk=price-inc&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:53:54] "GET /api/v1.0/houses?sk=price-inc&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:54:00] "GET /api/v1.0/houses?sk=price-inc&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 18:54:04] "GET /api/v1.0/houses?sk=price-inc&p=6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 19:18:25] "GET /api/v1.0/houses?aid=1&sk=price-inc&p=6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 19:18:29] "GET /api/v1.0/houses?aid=1&sk=price-inc&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:42:13] "GET /api/v1.0/houses?aid=1&sk=price-inc&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:42:13] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/icmelon/virtual_environment/flask/flask/bin/ihome_project/ihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:42:52] "GET /api/v1.0/houses?aid=1&sk=price-inc&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:42:52] "GET /favicon.ico HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:43:04] "GET /api/v1.0/houses?sk=price-inc&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:43:24] "GET /api/v1.0/houses?sk=price-inc&p=2 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:43:46] "GET /api/v1.0/houses?sk=price-inc&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:43:50] "GET /api/v1.0/houses?sk=price-inc&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:43:50] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/icmelon/virtual_environment/flask/flask/bin/ihome_project/ihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:47:15] "GET /api/v1.0/houses?sk=price-inc&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:47:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:47:17] "GET /api/v1.0/houses?sk=price-inc&p=2 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:47:20] "GET /api/v1.0/houses?sk=price-inc&p=6 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:47:26] "GET /api/v1.0/houses?sk=price-inc&p=6 HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:39] "GET / HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:39] "GET /api/v1.0/session HTTP/1.1" 200 -
+ERROR houses.py:229 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:39] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+ERROR houses.py:20 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:39] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:39] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:39] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:41] "GET /static/images/landlord01.jgp HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:44] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:44] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:44] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:44] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:46] "GET /static/images/landlord01.jgp HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:52] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:52] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:52] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 20:57:52] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:08:40] "GET /search.html?aid=11&aname=怀柔区&sd=2019-06-26&ed=2019-06-29 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:08:40] "GET /static/images/landlord01.jgp HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:09:54] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:10:00] "GET /static/images/landlord01.jgp HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/css/ihome/search.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/js/ihome/search.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /api/v1.0/areas HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/images/house_image_7_1560958480 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/images/avatar_2_1560826060 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/images/house_image_6_1560951715 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:37] "GET /static/images/avatar_1_1560825536 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:40] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:40] "GET /static/images/house_image_5_1560916367 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:41] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:42] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=4 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:51] "GET /api/v1.0/houses?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:57] "GET /api/v1.0/houses?aid=2&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:23:59] "GET /api/v1.0/houses?aid=4&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:01] "GET /api/v1.0/houses?aid=5&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:03] "GET /api/v1.0/houses?aid=6&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:04] "GET /api/v1.0/houses?aid=7&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:07] "GET /api/v1.0/houses?aid=8&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:09] "GET /api/v1.0/houses?aid=9&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:12] "GET /api/v1.0/houses?aid=9&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:15] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:16] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:16] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:16] "GET /favicon.ico HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:19] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=booking&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:24] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:26] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:26] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=3 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:27] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=4 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:37] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:38] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=2 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:39] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=3 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:40] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET / HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:47] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:48] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:53] "GET /search.html?aid=1&aname=东城区&sd=&ed= HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:53] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:24:53] "GET /api/v1.0/houses?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:04] "GET /search.html?aid=&aname=东城区&sd=&ed= HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:05] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:05] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:11] "GET /detail.html?id=6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:11] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:11] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+ERROR houses.py:276 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:11] "GET /api/v1.0/houses/6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:11] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:11] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:15] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:18] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=booking&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:52] "GET /search.html?aid=&aname=东城区&sd=&ed=&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:52] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:52] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:25:57] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=booking&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:26:29] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:17] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:18] "GET /search.html?aid=&aname=东城区&sd=&ed=&p=2 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:18] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:18] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:18] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:21] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:26] "GET /api/v1.0/houses?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:29] "GET /api/v1.0/houses?aid=15&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:32] "GET /api/v1.0/houses?aid=9&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:34] "GET /api/v1.0/houses?aid=10&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:36] "GET /api/v1.0/houses?aid=11&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:38] "GET /api/v1.0/houses?aid=3&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:40] "GET /api/v1.0/houses?aid=4&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:41] "GET /api/v1.0/houses?aid=5&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:43] "GET /api/v1.0/houses?aid=7&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:45] "GET /api/v1.0/houses?aid=7&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:50] "GET /api/v1.0/houses?aid=8&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:50] "GET /detail.html?id=5 HTTP/1.1" 200 -
+ERROR houses.py:276 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:51] "GET /api/v1.0/houses/5 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:51] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:51] "GET /static/images/house_image_5_1560916403 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:51] "GET /static/images/house_image_5_1560916428 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:54] "GET /booking.html?hid=5 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:54] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:54] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:54] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:27:56] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:00] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:00] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:00] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:00] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:01] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:01] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:01] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:07] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:07] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:07] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:07] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:07] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:11] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:11] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:12] "GET /detail.html?id=7 HTTP/1.1" 200 -
+ERROR houses.py:276 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:13] "GET /api/v1.0/houses/7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:13] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:13] "GET /static/images/house_image_7_1560958484 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:21] "GET /booking.html?hid=7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:22] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:23] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:25] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:25] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:25] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:25] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:26] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:26] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:26] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:26] "GET /api/v1.0/users/profile HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:27] "GET /myhouse.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:27] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:27] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:27] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:27] "GET /api/v1.0/users/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:31] "GET /api/v1.0/houses/6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [20/Jun/2019 21:28:31] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET / HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/css/ihome/index.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:41] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/js/template.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/js/ihome/index.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /api/v1.0/session HTTP/1.1" 200 -
+ERROR houses.py:229 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+ERROR houses.py:20 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/images/house_image_5_1560916367 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/images/house_image_7_1560958480 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:42] "GET /static/images/house_image_6_1560951715 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:46] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:46] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:47] "GET /detail.html?id=6 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:47] "GET /static/css/ihome/detail.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:47] "GET /static/js/ihome/detail.js HTTP/1.1" 304 -
+ERROR houses.py:276 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:48] "GET /api/v1.0/houses/6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:48] "GET /static/images/houseicon_sprite.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:48] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:48] "GET /static/images/avatar_1_1560825536 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:49] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:51] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:51] "GET /static/css/ihome/search.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:51] "GET /static/js/ihome/search.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:51] "GET /api/v1.0/areas HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:51] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:51] "GET /static/images/avatar_2_1560826060 HTTP/1.1" 304 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:53] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:54] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:07:54] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=4 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:01] "GET /api/v1.0/houses?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:04] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:08] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=booking&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:12] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:14] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=2 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:14] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=3 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:15] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-inc&p=4 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:20] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=1 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:21] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=2 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:21] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=3 HTTP/1.1" 200 -
+ERROR houses.py:357 'NoneType' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:22] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=price-des&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:31] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:31] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:31] "GET /api/v1.0/houses?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:35] "GET /api/v1.0/houses/6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:43] "GET /detail.html?id=6 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:43] "GET /api/v1.0/houses/6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:43] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:08:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/icmelon/virtual_environment/flask/flask/bin/ihome_project/ihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 140-076-823
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:09:21] "GET /detail.html?id=6 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:09:21] "GET /api/v1.0/houses/6 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:09:21] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jun/2019 11:09:21] "GET /favicon.ico HTTP/1.1" 200 -
