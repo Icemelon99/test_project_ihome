@@ -36,4 +36,8 @@ HOUSE_LIST_PER_PAGE_CAPACITY = 2
 # 列表页缓存的有效期，单位：秒
 HOUSE_LIST_PAGE_REDIS_EXPIRE = 3600
 
+# 详情页面显示的评论条目数
 HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS = 20
+
+# 支付宝的网关地址
+API_PAY_ADDRESS = "https://openapi.alipaydev.com/gateway.do?"
