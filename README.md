@@ -5,7 +5,7 @@
 用途：学习交流  
 语言：python3  
 开发环境：ubuntu 18.04  
-依赖包：见ihome_freeze.txt
+依赖包：见ihome_freeze.txt  
 完成功能：用户系统，房屋系统，订单系统，第三方支付  
 使用工具：nginx, celery, redis, MySQL, Gunicorn, 第三方图片存储  
 开发博客：参[学习笔记](https://blog.csdn.net/weixin_44806420/article/category/9063125)  
