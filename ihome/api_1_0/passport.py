@@ -30,7 +30,7 @@ def register():
         return jsonify(errno=RET.PARAMERR, errmsg="两次密码不一致")
 
     # 此处可以继续添加密码长度格式等校验条件
-    # 校验短信验证码
+    # 获取短信验证码
     try:
         real_sms_code = redis_store.get('sms_code_{}'.format(mobile)).decode()
     except Exception as e:
@@ -148,5 +148,8 @@ def check_login():
 @api.route('/session', methods=['DELETE'])
 def log_out():
     '''登出'''
+    # 防止出现浏览器缓存，session中的csrf值被删除而页面不发送请求不重新设置新的csrf值产生验证错误
+    csrf_token = session.get('csrf_token')
     session.clear()
+    session['csrf_token'] = csrf_token
     return jsonify(errno=RET.OK, errmsg="true")

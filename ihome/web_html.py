@@ -12,7 +12,7 @@ def get_html(html_file_name):
 	if html_file_name != 'favicon.ico':
 		# 设置html静态文件的访问路径
 		html_file_name = 'html/' + html_file_name
-	# 创建csrf_token值，并设置cookie
+	# 创建csrf_token值，并设置cookie，用于前端从cookie中获取csrf_token值并设置到请求体中，但flaskwtf的csrf机制并不从cookie中取值
 	csrf_token = csrf.generate_csrf()
 	resp = make_response(current_app.send_static_file(html_file_name))
 	resp.set_cookie('csrf_token', csrf_token)

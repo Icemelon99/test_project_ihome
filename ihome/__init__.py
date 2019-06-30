@@ -22,8 +22,9 @@ stream_log_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(levelname)s %(filename)s:%(lineno)d %(message)s')
 # 为刚创建的日志记录器设置日志记录格式
 file_log_handler.setFormatter(formatter)
-# 为全局的日志工具对象（flask app使用的）添加日记录器
+# 为全局的日志工具对象（flask app使用的）添加日志记录器
 logging.getLogger().addHandler(file_log_handler)
+# 为全局的日志工具对象（flask app使用的）添加控制台显示记录器
 logging.getLogger().addHandler(stream_log_handler)
 # 设置日志的记录等级
 logging.basicConfig(level=logging.DEBUG)  # 调试debug级，会受flask的debug=True影响，强制忽略设置的等级

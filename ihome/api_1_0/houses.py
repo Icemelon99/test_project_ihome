@@ -123,7 +123,6 @@ def save_house_info():
         min_days=min_days,
         max_days=max_days
     )
-    db.session.add(house)
 
     # 处理房屋设施信息
     facility_ids = house_data.get('facility')
